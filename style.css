@@ -1,0 +1,197 @@
+/* Common CSS */
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+    font-size: 16px;
+    background-color: #fafafa;
+}
+img {
+    max-width: 100%;
+}
+a:hover {
+    text-decoration: none;
+}
+.regular-text {
+    color: #6C6B6B;
+}
+section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+ul {
+    list-style-type: none;
+}
+
+/* Header CSS */
+.header {
+    background-color: #F0FFF0;
+}
+.site-logo {
+    width: 198px;
+    height: 59px;
+}
+a.nav-link {
+    padding: 12px 28px !important;
+    color: #000;
+    transition: all .3s ease;
+}
+a.nav-link:hover {
+    background: #21B573;
+    color: #fff;
+    border-radius: 33px;
+}
+.header-banner {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.banner-tagline {
+    color: #FD511A;
+}
+.banner-content-wrapper {
+    padding-right: 122px;
+}
+.banner-content-wrapper h2 {
+    font-size: 48px;
+}
+.banner-content-wrapper h2 span {
+    color: #21B573;
+}
+.banner-content-wrapper .regular-text {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.regular-button {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    display: inline-block;
+    padding: 12px 36px;
+    background: #21B573;
+    border-radius: 33px;
+    transition: color .5s ease;
+}
+.regular-button:hover {
+    color: #6C6B6B;
+}
+/* Features Section CSS */
+.single-feature {
+    background: #F8FFFB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 46px;
+    border-radius: 10px;
+    transition: all .3s ease;
+}
+.single-feature img {
+    margin-bottom: 30px;
+}
+.single-feature h4 {
+    font-size: 24px;
+    font-weight: 500;
+}
+.single-feature p {
+    margin-bottom: 0;
+}
+.single-feature-img1{
+    width: 66px;
+}
+.single-feature-img2{
+    width: 80px;
+}
+.single-feature-img3{
+    width: 75px;
+}
+.single-feature-img4{
+    width: 68px;
+}
+.single-feature:hover {
+    background: #fff;
+    box-shadow: 1px 1px 10px rgb(236, 230, 230);
+    transform: scale(1.01);
+}
+/* Online Courses Area CSS */
+.online-course .card-img-top {
+    padding: 20px;
+    padding-bottom: 0px;
+}
+.custom-card-footer img {
+    width: 24px;
+    height: 24px;
+}
+.custom-card-footer span {
+    color: #585859;
+}
+.online-course .card-title {
+    font-weight: 500;
+    font-size: 24px;
+    color: #413960;
+    margin-bottom: 0;
+}
+.online-course .card-text {
+    margin-top: 10px;
+    color: #585859;
+}
+.online-course .regular-button {
+    padding: 5.5px 28px;
+    margin-bottom: 30px;
+}
+.online-course .card {
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 5px lightgrey;
+    transition: all .15s ease;
+}
+.online-course .card:hover {
+    box-shadow: 2px 2px 5px lightgrey;
+    transform: scale(1.01);    
+}
+/* Testimonial Area CSS */
+.testimonial {
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+.testimonial h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+.single-testimony img {
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    margin-right: 50px;
+}
+.single-testimony {
+   width: 800px;
+}
+/* Footer Area */
+.footer {
+    background-color: #282531;
+    color: #fff;
+    padding-top: 60px;
+}
+.footer-content {
+    padding-right: 20px;
+    font-weight: 300;
+}
+.footer-list h4 {
+    font-size: 18px;
+    font-weight: 700;
+}
+.footer-list ul li a {
+    color: #fff;
+    font-weight: 300;
+}
+.copyright {
+    padding-top: 30px;
+}
+.copyright p {
+    margin-bottom: 0;
+    padding-bottom: 15px;
+}
